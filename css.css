@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Montserrat|Rubik+Mono+One|Herr+Von+Muellerhoff');
+
+
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.align-left {
+  float: left;
+}
+
+.align-right {
+  float: right;
+}
+
+.hero {
+  margin: 0px;
+  width: 100%;
+  height: 700px;
+  background-image: url('hero-img.jpg');
+  background-size: cover;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0px 60px 0px 60px;
+    overflow: hidden;
+    background-color: rbga(0,0,0,0);
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.brand {
+  font-family: 'Montserrat', helvetica, sans-serif;
+  font-size: 2em;
+
+}
+
+.nav-pages {
+  font-family: 'Montserrat', helvetica, sans-serif;
+  font-size: 1.5em;
+  padding-top: 8px;
+}
+
+.intro {
+  text-align: center;
+  padding-top: 140px;
+  font-family: 'Lato', helvetica, sans-serif;
+}
+
+.intro h1 {
+  color: #1FBDA9;
+  font-size: 3em;
+}
+
+.intro h4 {
+  color: #FFF;
+}
+
+.intro button {
+  margin-top: 20px;
+  background: rgba(0,0,0,0);
+  border: 2px solid #1FBDA9;
+  border-radius: 20px;
+  padding: 10px 20px;
+  color: #FFF;
+  font-size: 1.1em;
+  letter-spacing: 2px;
+  transition: background .5s linear;
+}
+
+.intro button:hover {
+  cursor: pointer;
+  background-color: #1FBDA9;
+  transition: background .5s linear;
+}
+
+.content-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 150px;
+}
+.image-container {
+  width: 50%;
+  height: 450px;
+  text-align: center;
+}
+
+.image-container img {
+  width: 80%;
+  height: 450px;
+}
+
+.about-container {
+  width: 50%;
+  height: 450px;
+  overflow: hidden;
+  padding: 0px 40px;
+}
+
+.about-container h1 {
+  color: #1FBDA9;
+  font-size: 3em;
+  font-family: 'Lato', helvetica, sans-serif;
+}
+
+.about-container p {
+  font-family: 'Montserrat', helvetica, sans-serif;
+  line-height: 2;
+}
+
+.signature {
+  font-family: 'Herr Von Muellerhoff', cursive;
+  font-size: 2em;
+}
+
+footer {
+  margin-top: 150px;
+  width: 100%;
+  height: 200px;
+  background: #F5F5F5;
+}
+
+footer h1 {
+  text-align: center;
+  font-family: 'Lato', helvetica, sans-serif;
+  font-size: 2em;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.social-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 30%;
+  margin: 0 auto;
+}
+
+.social-icon {
+  width: 30px;
+  height: 30px;
+  color: #1FBDA9;
+}
+
+.social-icon i {
+  font-size: 30px;
+}
+
+.social-icon:hover {
+  cursor: pointer;
+}
